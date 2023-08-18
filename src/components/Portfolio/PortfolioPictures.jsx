@@ -17,30 +17,30 @@ const PortfolioPictures = ({ portolioSelected, setPortfolioSelected }) => {
         All
       </div>
       <div
-        onClick={() => setPortfolioSelected("brands")}
+        onClick={() => setPortfolioSelected("sports")}
         style={{
           borderRight: "1px solid white",
         }}
         className={
-          portolioSelected === "brands"
+          portolioSelected === "sports"
             ? "w-[20%] md:p-8 p-4 flex bg-white  text-[#333333]  justify-center items-center hover:bg-white hover:text-[#333333] transition duration-500 ease-in-out cursor-pointer"
             : "w-[20%] md:p-8 p-4 flex   justify-center items-center hover:bg-white hover:text-[#333333] transition duration-500 ease-in-out cursor-pointer"
         }
       >
-        Brands
+        sports
       </div>
       <div
-        onClick={() => setPortfolioSelected("studio")}
+        onClick={() => setPortfolioSelected("artists")}
         style={{
           borderRight: "1px solid white",
         }}
         className={
-          portolioSelected === "studio"
+          portolioSelected === "artists"
             ? "w-[20%] md:p-8 p-4 flex bg-white  text-[#333333]  justify-center items-center hover:bg-white hover:text-[#333333] transition duration-500 ease-in-out cursor-pointer"
             : "w-[20%] md:p-8 p-4 flex   justify-center items-center hover:bg-white hover:text-[#333333] transition duration-500 ease-in-out cursor-pointer"
         }
       >
-        Studio
+        Artists
       </div>
       <div
         onClick={() => setPortfolioSelected("nature")}

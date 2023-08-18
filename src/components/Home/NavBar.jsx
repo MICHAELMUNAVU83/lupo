@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { RxCross1 } from "react-icons/rx";
 
 import logo from "../images/logo.png";
-import blacklogo from "../images/blacklogo.png";
+import blacklogo from "../images/logo.png";
 import { FiMenu } from "react-icons/fi";
 import { AiFillInstagram, AiFillTwitterCircle } from "react-icons/ai";
 import { FaWhatsapp } from "react-icons/fa";
@@ -41,7 +41,7 @@ const NavBar = () => {
           <div className="flex items-center">
             <img src={kinywaLogo} alt="logo" className="md:w-24 w-12 " />
             <div className="flex flex-col justify-between ml-2">
-              <h1 className="md:text-3xl  text-xl font-bold ">Brian Kinywa</h1>
+              <h1 className="md:text-3xl  text-xl font-bold ">Shengspear </h1>
               <p className="md:text-sm text-xs ">photographer</p>
             </div>
           </div>

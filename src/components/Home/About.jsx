@@ -33,7 +33,7 @@ const About = ({ portolioSelected, setPortfolioSelected }) => {
         <div className="flex justify-center  ">
           <Link
             to="/portfolio"
-            onClick={() => setPortfolioSelected("brands")}
+            onClick={() => setPortfolioSelected("sports")}
             className="flex justify-center uppercase items-center md:h-[250px] md:w-[250px] w-[150px] h-[150px]
             hover:bg-white hover:text-black cursor-pointer transition
             ease-in-out duration-500"
@@ -41,11 +41,11 @@ const About = ({ portolioSelected, setPortfolioSelected }) => {
               borderBottom: "3px solid white",
             }}
           >
-            brands
+            sports
           </Link>
           <Link
             to="/portfolio"
-            onClick={() => setPortfolioSelected("studio")}
+            onClick={() => setPortfolioSelected("events")}
             className="flex uppercase justify-center items-center md:h-[250px] md:w-[250px] w-[150px] h-[150px]
             hover:bg-white hover:text-black cursor-pointer transition
             ease-in-out duration-500"
@@ -54,7 +54,7 @@ const About = ({ portolioSelected, setPortfolioSelected }) => {
               borderLeft: "3px solid white",
             }}
           >
-            studio
+            events
           </Link>
         </div>
         <div className="flex justify-center  ">
@@ -67,13 +67,13 @@ const About = ({ portolioSelected, setPortfolioSelected }) => {
           </Link>
           <Link
             to="/portfolio"
-            onClick={() => setPortfolioSelected("events")}
+            onClick={() => setPortfolioSelected("artists")}
             className="flex justify-center uppercase items-center md:h-[250px] md:w-[250px] w-[150px] h-[150px] hover:bg-white hover:text-black cursor-pointer  transition ease-in-out duration-500"
             style={{
               borderLeft: "3px solid white",
             }}
           >
-            events
+            artists
           </Link>
         </div>
       </div>

@@ -8,18 +8,18 @@ const Hero = () => {
       id="home"
       style={{ backgroundImage: `url(${herobg})` }}
     >
-      <div className=" items-end  flex md:h-[100vh] h-[80vh] bg-black/50 flex-col justify-center md:p-10 text-white  ">
+      <div className=" items-start  flex md:h-[100vh] h-[80vh] bg-black/50 flex-col justify-center md:p-10 text-white  ">
         <div className="flex flex-col items-start">
           <div className="md:text-7xl text-5xl flex gap-2 font-bold">
             <span className="text-[#CCCCCC] ">I'm</span>
-            Brian Kinywa
+            Shengspear Lupo
           </div>
           <div className="md:text-3xl text-xl text-center font-bold">
             I create art with photography
           </div>
           <Link
             to="/portfolio"
-            className="text-white bg-black hover:scale-105 transition duration-500 ease-in-out  px-4 py-2  text-xl mt-4  text-white cursor-pointer  transition ease-in-out duration-500   "
+            className=" bg-white  hover:scale-105   px-4 py-2  text-xl mt-4  text-black cursor-pointer  transition ease-in-out duration-500   "
           >
             View Portfolio
           </Link>
