@@ -9,8 +9,8 @@ const Hero = () => {
       style={{ backgroundImage: `url(${herobg})` }}
     >
       <div className=" items-start  flex md:h-[100vh] h-[80vh] bg-black/50 flex-col justify-center md:p-10 text-white  ">
-        <div className="flex flex-col items-start">
-          <div className="md:text-7xl text-5xl flex gap-2 font-bold">
+        <div className="flex p-4 md:p-0 flex-col items-start">
+          <div className="md:text-7xl text-2xl flex gap-2 font-bold">
             <span className="text-[#CCCCCC] ">I'm</span>
             Shengspear Lupo
           </div>
